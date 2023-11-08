@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>IAnow</title>
+</head>
+<body>
+
+    <section id="c1">
+        <header id="header">
+            <a href="#" id="logo">IAnow</a>
+            <nav id="nav">
+                <a href="https://www.instagram.com/ianow23/"><ion-icon name="logo-instagram"></ion-icon></a>
+            </nav>
+        </header>
+
+        <div id="div1">
+            <p>Com o intuito de facilitar a rotina dos nossos usuários, somos uma Inteligência Artificial atrelada ao Instagram fornecendo respostas imediatas, 100% seguras e totalmente de graça.</p>
+
+            <button onclick="scrollToElement('c2')"><ion-icon name="caret-down-outline"></ion-icon></button>
+            
+        </div>
+    </section>
+
+    <section id="c2">
+        <div>
+            <div id="div2">
+                <p>Visto que muitos estudantes perdem bastante tempo indo de site em site buscando respostas ou que necessitam instalar outros aplicativos que apenas ocupam o armazenamento interno de seu telefone e que na maioria das vezes recebem respostas que não são confiáveis e até mesmo não encontram resultados, pensamos em uma ideia que facilitaria a rotina dessas pessoas, atrelando uma Inteligência Artificial à uma das maiores redes sociais da atualidade.</p>
+            </div>
+
+            <div id="div3">
+                <img src="img/insta.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="c3">
+        <div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 5vh;">
+                <h1>Como funciona?</h1>
+                <p>Primeiramente o usuário deverá ter o Instagram instalado em seu aparelho.
+                    Após criar a sua conta dentro do aplicativo, deverá nos seguir em sua rede social para que possa iniciar um bate-papo conosco.
+                    Em seguida, o nosso usuário poderá realizar suas pesquisas através de uma mensagem de texto.
+                    E no exato momento em que a pergunta for enviada o nosso cliente receberá a sua resposta.</p>
+            </div>
+
+            <div>
+                <img src="img/chatimg.jpeg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        function scrollToElement(c2) {
+  var element = document.getElementById(c2);
+  element.scrollIntoView({ behavior: 'smooth' });
+}
+
+    </script>
+
+</body>
+</html>
